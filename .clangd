@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Icompiler
+    - -IC:/LLVM-Dev/include
+    - -D_CRT_SECURE_NO_WARNINGS
+

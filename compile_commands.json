@@ -1,0 +1,38 @@
+[
+  {
+    "directory": "C:/Users/Adeel Hussain/ReactNative/MyCompiler",
+    "command": "clang -std=c++17 -Icompiler -IC:/LLVM-Dev/include -c compiler/main.cpp",
+    "file": "compiler/main.cpp"
+  },
+  {
+    "directory": "C:/Users/Adeel Hussain/ReactNative/MyCompiler",
+    "command": "clang -std=c++17 -Icompiler -IC:/LLVM-Dev/include -c compiler/lexer/Lexer.cpp",
+    "file": "compiler/lexer/Lexer.cpp"
+  },
+  {
+    "directory": "C:/Users/Adeel Hussain/ReactNative/MyCompiler",
+    "command": "clang -std=c++17 -Icompiler -IC:/LLVM-Dev/include -c compiler/ast/AST.cpp",
+    "file": "compiler/ast/AST.cpp"
+  },
+  {
+    "directory": "C:/Users/Adeel Hussain/ReactNative/MyCompiler",
+    "command": "clang -std=c++17 -Icompiler -IC:/LLVM-Dev/include -c compiler/parser/Parser.cpp",
+    "file": "compiler/parser/Parser.cpp"
+  },
+  {
+    "directory": "C:/Users/Adeel Hussain/ReactNative/MyCompiler",
+    "command": "clang -std=c++17 -Icompiler -IC:/LLVM-Dev/include -c compiler/semantic/SemanticAnalyzer.cpp",
+    "file": "compiler/semantic/SemanticAnalyzer.cpp"
+  },
+  {
+    "directory": "C:/Users/Adeel Hussain/ReactNative/MyCompiler",
+    "command": "clang -std=c++17 -Icompiler -IC:/LLVM-Dev/include -c compiler/llvm/IRGenerator.cpp",
+    "file": "compiler/llvm/IRGenerator.cpp"
+  },
+  {
+    "directory": "C:/Users/Adeel Hussain/ReactNative/MyCompiler",
+    "command": "clang -std=c++17 -Icompiler -IC:/LLVM-Dev/include -c compiler/codegen/CodeGenerator.cpp",
+    "file": "compiler/codegen/CodeGenerator.cpp"
+  }
+]
+

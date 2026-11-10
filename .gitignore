@@ -1,0 +1,68 @@
+# Prerequisites & Build Directories
+build/
+bin/
+obj/
+out/
+
+# CMake Artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Visual Studio / MSVC Artifacts
+.vs/
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.dir/
+*.tlog
+*.recipe
+*.lastbuildstate
+*.pdb
+*.ilk
+*.idb
+
+# Executables & Compiled Binaries
+*.exe
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+
+# LLVM Intermediate Representation & Temporary Artifacts
+*.ll
+*.bc
+*.s
+*.asm
+web_run*
+temp_*
+test*.exe*
+test*.ll
+
+# Python Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
